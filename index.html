@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <!--
-  Author: YOUR NAME
-  GU username: YOUR-GU-USERNAME
+  Author: Emma Taggi
+  GU username: etaggipadro@zagmail.gonzaga.edu
   Course: BMIS 235 - HTML-2
 -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="author" content="YOUR NAME">
+<meta name="Emma Taggi" content="Emma Taggi">
 
 <!-- this is the title that shows up on the tab of a web browser -->
-<title>John Correia's Podcasts</title>
+<title>Emma Taggi's Podcasts</title>
 
 <style>
 body { font-family: Arial, sans-serif; margin: 0; padding: 0 20px; }
@@ -43,8 +43,8 @@ ul {
 
 <a id="top"></a>
 
-<h1>Professor Correia's Podcasts</h1>
-<p style="text-align: center;">Email me at correia@gonzaga.edu for episode suggestions</p>
+<h1>Emma Taggi's Podcasts</h1>
+<p style="text-align: center;">Email me at etaggipadro@zagmail.gonzaga.edu for episode suggestions</p>
 
 <!-- ===================== MENU OF IMAGES ===================== -->
 <!-- Click an image and it jumps down to its video.            -->
@@ -55,7 +55,7 @@ ul {
     <li><a href="#findingmastery"><img src="gervais.jpg" width="400" height="400" alt="Michael Gervais"></a></li>
 
     <li><h2>For the Body</h2></li>
-    <li><a href="#huberman-lab"><img src="Huberman.jpg" width="400" height="400" alt="Andrew Huberman"></a></li>
+    <li><a href="#huberman"><img src="huberman.jpg" width="400" height="400" alt="Andrew Huberman"></a></li>
 
     <li><h2>For the Craft</h2></li>
     <li><a href="#fridman"><img src="fridman.jpg" width="400" height="400" alt="Lex Fridman"></a></li>
@@ -88,7 +88,7 @@ ul {
 <h2>Lex Fridman Podcast</h2>
 </a>
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=kFQUDCgMjRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kFQUDCgMjRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </center>
 
 <p style="font-size: small; text-align: center;"><a href="#top">To top</a></p>
@@ -100,19 +100,26 @@ ul {
 <!-- 3. Paste it on the empty line below the heading.             -->
 <!-- 4. Change the heading to say what it is.                     -->
 <section id="embed-block">
-<h2>My embed</h2>
-
+<h2>Map of Gonzaga University</h2>
+<iframe
+  src="https://www.google.com/maps?q=Gonzaga+University&output=embed"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
 </section>
 
 <!-- Footer: fill in your name -->
-<p style="text-align: center;">Built by YOUR NAME &middot; BMIS 235</p>
+<p style="text-align: center;">Built by Emma Taggi &middot; BMIS 235</p>
 
 
 <!-- ===================== DARK MODE SCRIPT ===================== -->
 <script>
   // 1. Your two colors. Change these to your own.
-  var lightColor = "#f2f2f2";
-  var darkColor  = "#222222";
+  var lightColor = "#fff1e6";
+  var darkColor  = "#18324a";
 
   // 2. Which mode the page is in right now
   var dark = false;
